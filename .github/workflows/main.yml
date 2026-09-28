@@ -1,0 +1,9 @@
+php-version: 8.4
+extensions: "apcu,bcmath,calendar,ctype,curl,dba,dom,exif,fileinfo,filter,gd,iconv,intl,mbregex,mbstring,mysqli,mysqlnd,opcache,openssl,pcntl,pdo,pdo_mysql,pdo_pgsql,pdo_sqlite,pgsql,phar,posix,readline,redis,session,simplexml,sockets,sodium,sqlite3,tokenizer,xdebug,xml,xmlreader,xmlwriter,xsl,zip,zlib"
+sapi:
+  - cli
+download-options:
+  parallel: 10
+  retry: 5
+  ignore-cache: php-src
+  prefer-binary: true
